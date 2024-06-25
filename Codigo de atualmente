@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Projeto_do_Video
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            ExibirMsg();
+            ExibirMsg();
+            ExibirMsg();
+
+            Console.ReadLine();
+        }
+
+        static void ExibirMsg()
+        {
+            Console.WriteLine("Esse,sistema é show de bola!");
+            Console.WriteLine("Estou usando funções");
+            Console.WriteLine("Bem vindo");
+        }
+
+    }
+}
