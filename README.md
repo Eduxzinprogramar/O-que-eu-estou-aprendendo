@@ -19,4 +19,12 @@ static void Main(string[] args)
         case Opcao.Editar:
             Console.WriteLine("Você gostaria de editar esse item");
             break;
+        case Opcao.Listar:
+            Console.WriteLine("Você gostaria de listar todos os comandos?";
+            break;
+            case Opcao.Atualizar:
+                Console.WriteLine("Você gostaria de atualizar o seu programa?");
+        default:
+            Console.WriteLine("Opção não indentificada!");
+            break;
     }
